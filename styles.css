@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Martel+Sans:wght@200;300;400;600;700;800;900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    
+
+  }
+  
+  header {
+    background-color: #333;
+    color: white;
+    padding: 10px 0;
+  }
+  
+  nav ul {
+    list-style: none;
+    text-align: center;
+  }
+  
+  nav ul li {
+    display: inline;
+    margin: 0 20px;
+  }
+  
+  nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+  }
+  
+  /* Home Section */
+  #home {
+    text-align: center;
+    padding: 50px 0;
+    background-color: #2d3e50;
+    color: white;
+  }
+  
+  #home h1 {
+    font-size: 40px;
+  }
+  
+  /* Gallery Section */
+  #gallery {
+    padding: 50px 20px;
+    text-align: center;
+  }
+  
+  .car-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+   background-color: #484a4d5e;
+  }
+  
+  .car {
+    background-color: rgba(255, 255, 255, 0.789);
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+.car >:first-child  :hover {
+    border: 2px solid rgb(18, 18, 22);
+    
+
+}
+  .car img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+  }
+  
+  .car h3 {
+    margin: 10px 0;
+  }
+  
+  .car p {
+    color: #555;
+  }
+  
+  /* About Section */
+  #about {
+    background-color: #ddd;
+    padding: 50px;
+    text-align: center;
+  }
+  
+  /* Footer */
+  footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #333;
+    color: white;
+  }
+
+ 
+nav ul :hover{
+    scale: 50px;
+    border: 1px solid rgba(255, 255, 255, 0.345);
+    border-radius: 5px;
+}
+#home{
+    font-family:"Poppins" ;
+}

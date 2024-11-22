@@ -1,0 +1,64 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #b4a99e;
+    
+
+  }
+  
+  header {
+    background-color: #333;
+    color: white;
+    padding: 10px 0;
+  }
+  
+  nav ul {
+    
+    list-style: none;
+    text-align: center;
+  }
+  
+  nav ul li {
+    display: inline;
+    margin: 0 20px;
+  }
+  
+  nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+  }
+  nav ul :hover{
+    scale: 50px;
+    border: 1px solid white;
+    border-radius: 5px;
+}
+
+.car-sec{
+    background-color: #A29587;
+    display:inline-block;
+   margin-left: 60px;
+    margin-top: 50px;
+    padding: 4px;
+    border-radius: 10px;
+}
+.car{
+    
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+.car-sec:hover{
+    scale: 1.05;
+}
+  /* Footer */
+  footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #333;
+    color: white;
+  }
+.cardetails{
+    margin-bottom: 20px;
+}
